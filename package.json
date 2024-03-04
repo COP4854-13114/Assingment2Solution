@@ -1,0 +1,23 @@
+{
+  "name": "assign2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger-autogen": "node ./dist/swagger.js",
+    "start": "node ./dist/main.js"
+  },
+  "author": "Jose C Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "and": "^0.0.3",
+    "express": "^4.18.2",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/swagger-ui-express": "^4.1.6",
+    "swagger-autogen": "^2.23.7"
+  }
+}
